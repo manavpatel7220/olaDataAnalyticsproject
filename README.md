@@ -11,3 +11,6 @@ keep order ID with 10 digits starting with CNR and then digits
 keep orders under 500 value 70%
 keep orders above 500 value 28%
 keep remaining orders above 1000
+
+## Dataset Used:
+- <a href="https://github.com/manavpatel7220/olaDataAnalyticsproject/blob/main/booking.csv">Dataset</a>
