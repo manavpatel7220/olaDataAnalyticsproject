@@ -78,3 +78,7 @@ SELECT Booking_ID, Incomplete_Rides_Reason FROM bookings WHERE Incomplete_Rides 
 17. Ride_Distance
 18. Driver_Ratings
 19. Customer_Rating
+
+
+
+--Dashboard Interaction <a href="https://github.com/manavpatel7220/olaDataAnalyticsproject/blob/main/ola.pdf">View Dashboard</a>
