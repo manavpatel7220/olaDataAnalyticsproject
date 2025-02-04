@@ -62,10 +62,10 @@ SELECT COUNT(*) FROM bookings WHERE Booking_Status = 'cancelled by Customer';
 
 4️⃣ List the top 5 customers who booked the highest number of rides:
 ```sql
-SELECT Customer_ID, COUNT(Booking_ID) as total_rides
-FROM bookings
-GROUP BY Customer_ID
-ORDER BY total_rides DESC
+SELECT Customer_ID, COUNT(Booking_ID) as total_rides 
+FROM bookings 
+GROUP BY Customer_ID 
+ORDER BY total_rides DESC 
 LIMIT 5;
 ```
 
@@ -119,7 +119,9 @@ Here are the key visualizations created in Power BI:
 
 ## 🖥️ Dashboard Interaction
 
-📌 **View the Dashboard:** [🔗 Click Here](#) *(Replace with actual link)*
+📌 **View the Dashboard:** [🔗 Click Here](https://github.com/manavpatel7220/olaDataAnalyticsproject/blob/main/ola.pdf)
+
+📌 **View the Dataset:** [🔗 Click Here](https://github.com/manavpatel7220/olaDataAnalyticsproject/blob/main/ola.pbix)
 
 ---
 
@@ -140,4 +142,3 @@ git clone https://github.com/your-username/OLA-DataAnalytics-Project.git
 ---
 
 ### ⭐ Don't forget to star this repo if you found it useful!
-
